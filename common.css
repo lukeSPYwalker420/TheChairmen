@@ -1,0 +1,89 @@
+/* General body style */
+body {
+    font-family: 'Playfair Display', serif;
+    color: #C0C0C0;
+    margin: 0;
+    padding: 0;
+    background: #1a1a1a;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navigation-bar {
+    background-color: rgba(34, 34, 34, 0.8);
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation-bar a {
+    display: inline-block;
+    color: #C0C0C0;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navigation-bar a:hover {
+    background-color: #444;
+    color: #FFD700;
+}
+
+.navigation-bar a.active {
+    background-color: #FFD700;
+    color: #222;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: #C0C0C0;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+
+/* General Styles for Headings and Text */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #FFD700;
+    margin: 20px 0;
+}
+
+h1 {
+    scroll-margin-top: 80px; /* Ensures anchors don't overlap the navbar */
+}
+
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #1a1a1a;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+    color: #FFD700;
+}

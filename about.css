@@ -1,0 +1,13 @@
+/* About Section */
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+#about {
+    padding: 35px;
+    text-align: center;
+}
